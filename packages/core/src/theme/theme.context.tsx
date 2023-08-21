@@ -30,6 +30,7 @@ type ThemeComponents = {
   Ribbon: typeof styles.ribbonStyles.base;
   Select: typeof styles.selectStyles;
   Selector: typeof styles.selectorStyles;
+  Slider: typeof styles.sliderStyles;
   Spinner: typeof styles.spinnerStyles.base;
   Switch: typeof styles.switchStyles;
   Table: typeof styles.tableStyles;
@@ -65,6 +66,7 @@ const defaultTheme: Theme = {
     Ribbon: styles.ribbonStyles.base,
     Select: styles.selectStyles,
     Selector: styles.selectorStyles,
+    Slider: styles.sliderStyles,
     Spinner: styles.spinnerStyles.base,
     Switch: styles.switchStyles,
     Table: styles.tableStyles,
